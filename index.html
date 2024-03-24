@@ -1,249 +1,382 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Yash Bansal | Front-End Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script
-      src="https://kit.fontawesome.com/836a943e18.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet"
-		type="text/css"
-		href="lightbox2/dist/css/lightbox.min.css">
-	<script src=
-"lightbox2/dist/js/lightbox-plus-jquery.min.js">
-	</script>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Yash Bansal | Front-End Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="https://kit.fontawesome.com/836a943e18.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="lightbox2/dist/css/lightbox.min.css">
+  <script src="lightbox2/dist/js/lightbox-plus-jquery.min.js">
+  </script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="nav-brand">
+          <a href="index.html" class="button button1">Home</a>
+        </div>
+        <div class="nav-brand">
+          <a href="#about" class="button button2">About</a>
+        </div>
+        <div class="nav-brand">
+          <a href="#projects" class="button button3">Projects</a>
+        </div>
+        <div class="nav-brand">
+          <a href="#Certificates" class="button button4">Certification</a>
+        </div>
+        <div class="nav-brand">
+          <a href="#contact" class="button button5">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="burger-menu-icon">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+  <ul class="nav-list">
+    <li class="nav-item">
+      <a href="#landing-page">
+        <img src="Me.png" alt="Yash Bansal" class="profile-pic nav-link" />
+        <span class="caption nav-link">Yash Bansal</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="#about" class="nav-link">About</a>
+    </li>
+    <!-- <li class="nav-item">
+      <a href="#services" class="nav-link">Services</a>
+    </li> -->
+    <li class="nav-item">
+      <a href="#projects" class="nav-link">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a href="#Certificates" class="nav-link">Certificates</a>
+    </li>
+    <li class="nav-item">
+      <a href="#contact" class="nav-link">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a href="https://www.linkedin.com/in/yash-bansal-03076a1b6" target="_blank" class="nav-link">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100011446328775" target="_blank" class="nav-link">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/_rocker_yash_/status/1346374291168739328?s=19" target="_blank" class="nav-link">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <div class="cta">
+      <a href="https://drive.google.com/file/d/1nJJp9iH3sNrml1JfFicAo71rh9RyxngE/view?usp=sharing" target="_blank"
+        class="btn nav-link">Resume</a>
+    </div>
+    <div class="cta">
+      <a href="https://drive.google.com/file/d/1xJ5A1sg7S_zgAFLCZxLr0oZdPlKZGCee/view?usp=sharing" target="_blank"
+        class="btn nav-link">CV</a>
+    </div>
+  </ul>
+  <main>
+    <section id="landing-page" class="landing-page">
       <div class="container">
-        <nav>
-          <div class="nav-brand">
-            <a href="index.html" class="button button1">Home</a>       
-          </div>
-      <div class="nav-brand">
-           <a href="#about" class="button button2">About</a>
-           </div>
-       <div class="nav-brand">
-       <a href="#Certificates" class="button button3">Certification</a>
-        </div>   
-      <div class="nav-brand">
-         <a href="#contact" class="button button4">Contact</a>
-         </div>         
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section id="landing-page" class="landing-page">
-        <div class="container">
-          <div class="main-message">
-            <h2>Yash Bansal</h2>
-            <h3>{Front-End Web Developer}</h3>
-            <p>Html . CSS . JavaScript . C . C++ . Python . MySql</p>
-            <div class="intro-btn">
-              <div class="cta">
-                <a href="#contact" class="btn">Get In Touch</a>
-              </div>
+        <div class="main-message">
+          <h2>Yash Bansal</h2>
+          <h3>{Front-End Web Developer}</h3>
+          <p>Html5 . CSS3 . Angular(2 and above) . TypeScript . JavaScript . C . C++ . Python</p>
+          <div class="intro-btn">
             <div class="cta">
-                <a href="#Certificates" class="btn">Certification</a>
-              </div> 
+              <a href="#projects" class="btn">Projects</a>
             </div>
-            <div>
-              <a href="#about" class="scroll-down">
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-              </a>
+            <div class="cta">
+              <a href="#Certificates" class="btn">Certification</a>
             </div>
           </div>
-        </div>
-      </section>
-      <section id="about" class="about">
-        <div class="container">
-          <div class="about-img">
-            <img
-              src="1.JPG"
-              alt="Yash Bansal"
-              class="about-pic"
-            />
-          </div>
-          <div class="about-text-box">
-            <h2>Hello 👋🏽</h2>
-            <p>
-              Every person has their own unique story. Here is a glimpse into mine.
-            </p>
-            <p>
-              My name is Yash Bansal I am current studying for my Bachelor's in Computer Science and Enginnering at Meerut Institute of Technology,Meerut. I'm interested in web development,web designing,graphic designing etc. I am passionate about learning, writing, maintaining integrity through honest work and also know about the new technology and the ways that technology is changing our wourld.
-            </p>
-            <p>
-              I have learnt Html5,Css3,Javascript,Bootstrap,Responsive designing,MySql,C,C++,Python. I am also spending my spare time developing my personality by focusing on skills like communication skills, leadership skills , listening skills, social skills etc.
-            </p>
+          <div>
+            <a href="#about" class="scroll-down">
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
-        <hr />
-      </section>
-      <section id="Certificates" class="Certificates">
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-img">
+          <img src="Me.png" alt="Yash Bansal" class="about-pic" />
+        </div>
+        <div class="about-text-box">
+          <h2>Hello 👋🏽</h2>
+          <p1>
+            Every person has their own unique story. Here is a glimpse into mine.<br><br>
+
+            Welcome to my digital portfolio—a testament to my relentless pursuit of technological excellence and
+            creative innovation. I'm Yash Bansal, a seasoned tech professional with a Bachelor's degree in Computer
+            Science from Meerut Institute of Technology. With a robust foundation in theoretical knowledge and practical
+            experience, I am passionate about leveraging cutting-edge technologies to solve complex problems and drive
+            tangible results.
+
+            Throughout my career, I have led groundbreaking initiatives and delivered impactful solutions that have
+            garnered recognition for their ingenuity and effectiveness. From directing the development of sophisticated
+            fraud detection systems to engineering personalized digital experiences, I have consistently pushed the
+            boundaries of what's possible in the tech landscape.<br>
+
+            My expertise spans a wide array of domains, including machine learning, web development, and data analysis.
+            I am proficient in a multitude of programming languages and frameworks, and I am adept at leveraging them to
+            architect scalable and efficient solutions. Whether it's crafting intuitive user interfaces, optimizing
+            backend processes, or extracting actionable insights from data, I excel in transforming ideas into
+            reality.<br>
+
+            Beyond my technical skills, I am deeply committed to fostering a culture of collaboration and continuous
+            learning. As a Ranger at Trailhead and a participant in coding hackathons, I thrive in dynamic environments
+            where innovation flourishes and collective wisdom drives progress.<br>
+
+            This portfolio is a curated showcase of my finest work—a glimpse into my passion for excellence and my
+            unwavering dedication to pushing the boundaries of what's possible. Whether you're a fellow enthusiast, a
+            potential collaborator, or a discerning employer seeking top talent, I invite you to explore the depths of
+            my expertise and envision the possibilities of what we can achieve together.<br>
+
+            Let's connect, collaborate, and embark on a journey of innovation and growth.<br>
+
+            Yash Bansal
+          </p1>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <section id="projects" class="projects">
+      <div class="title-heading">
+        <h2>PROJECTS</h2>
+        <p>these are some of my recent projects</p>
+      </div>
+      <div class="project-item">
+        <div class="project-img has-margin-right">
+          <img src="Farewell Card.png" />
+        </div>
+        <div class="project-description">
+          <h2>The Farewell Card Website</h2>
+          <p>
+            The Farewell Card Website represents the pinnacle of digital craftsmanship, seamlessly blending creativity
+            and technology to offer a sophisticated platform for heartfelt farewells. Developed with precision using
+            HTML and CSS, this project embodies thoughtful expression in the digital sphere. With curated designs and
+            animations, it ensures an impactful user experience.</p>
+          <h3>Key Features:</h3>
+          <p1>
+            Customization Options: Users enjoy a range of design templates and fonts to personalize
+            farewell messages.<br>
+            Optimized Responsiveness: The website performs flawlessly across devices for a seamless user
+            experience.<br>
+            Intuitive Interface: User-centric design simplifies crafting and sending messages.<br>
+            Cross-platform Compatibility:Rigorous testing ensures reliability across web browsers.<br>
+            Evocative Animations:animations enhance emotional resonance.
+          </p1>
+          <h3>Outcome:</h3>
+          <p1>The Farewell Card Website is a testament to technology and sentimentality, excelling in both form and
+            function. It fosters genuine connections and offers a dignified avenue for expressing gratitude and
+            cherished
+            memories.
+          </p1><br>
+          <a href="https://yashbansal08.github.io/Farewell_MIT/" class="project-link" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"> View Site</i></a>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-description has-margin-right">
+          <h2>Email Fraud Detection System</h2>
+          <p>
+            In response to the escalating threat of email fraud, I spearheaded the development of an Email Fraud
+            Detection System. Utilizing sophisticated machine learning techniques such as Naive Bayes and ensemble
+            methods, our system was meticulously trained to differentiate between legitimate emails and fraudulent ones
+            with remarkable accuracy.<br>
+
+            Our solution boasts real-time detection capabilities, enabling users to promptly identify and neutralize
+            malicious email activities before they can cause harm. With an emphasis on user-friendliness, we designed an
+            intuitive interface using Python's Tkinter framework, ensuring seamless interaction and ease of use for both
+            technical and non-technical users alike.<br>
+
+            Throughout the development process, we prioritized rigorous testing and validation to ensure the reliability
+            and effectiveness of our system in real-world scenarios. As a result, our project has received acclaim from
+            industry experts for its innovative approach and significant contributions to cybersecurity.<br>
+
+            The Email Fraud Detection System stands as a testament to our dedication to technological excellence and our
+            unwavering commitment to protecting individuals and businesses from the perils of email fraud.
+          </p><br>
+          <a href="https://github.com/YaShBaNsAl08/IBM_Intership" class="project-link" target="_blank"><i
+              class="fa fa-github" aria-hidden="true"> View Code</i></a>
+        </div>
+        <div class="project-img has-margin-right">
+          <img src="Email.jpg" />
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-img has-margin-right">
+          <img src="Customer.png" />
+        </div>
+        <div class="project-description">
+          <h2>Store Helper</h2>
+          <p>
+            "Store Helper" is a cutting-edge data analysis tool designed to empower businesses with actionable insights
+            and strategic foresight. Utilizing Python's advanced libraries, it distills complex data into actionable
+            intelligence, enabling businesses to optimize operations and drive sustainable growth.
+          </p>
+          <h3>Key Features:</h3>
+          <p1>
+            Advanced Data Analysis: Leveraging Python libraries like NumPy and Pandas, "Store Helper" extracts
+            meaningful insights from vast datasets, empowering businesses with predictive modeling and strategic
+            decision-making capabilities.<br>
+            Integration of Industry Insights: Informed by industry trends and research, "Store Helper" provides
+            businesses with foresight and agility in decision-making, ensuring alignment with evolving market
+            dynamics.<br>
+            Strategic Decision Support: By translating data into actionable insights, "Store Helper" enables businesses
+            to anticipate market shifts, personalize customer experiences, and fortify competitive positions with
+            confidence.
+          </p1>
+          <h3>Outcome:</h3>
+          <p1>
+            The deployment of "Store Helper" revolutionizes business intelligence, enhancing operational efficiency and
+            redefining customer engagement and revenue optimization strategies. Its impact is profound, empowering
+            businesses to achieve unprecedented levels of success in a rapidly evolving marketplace.
+          </p1>
+          <h3>Impact:</h3>
+          <p1>
+            Enhanced Customer Engagement: Through personalized experiences, "Store Helper" fosters customer loyalty and
+            advocacy.<br>
+            Strategic Revenue Enhancement: By uncovering market dynamics, "Store Helper" drives revenue growth and
+            maximizes profitability.<br>
+            Competitive Dominance: Armed with prescient insights, businesses gain a formidable edge, establishing
+            themselves as leaders in industry innovation.
+          </p1>
+          <h3>Future Prospects:</h3>
+          <p1>
+            Continuing to evolve, "Store Helper" will delve deeper into machine learning and artificial intelligence,
+            propelling businesses towards unparalleled efficiency and foresight. Committed to excellence, "Store Helper"
+            heralds a future where data is not just a tool but a strategic imperative for success.
+          </p1><br>
+          <a href="https://github.com/YaShBaNsAl08/STORE-HELPER" class="project-link" target="_blank"><i
+              class="fa fa-github" aria-hidden="true"> View Code</i></a>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <section id="Certificates" class="Certificates">
       <div class="container">
         <div class="title-heading">
-        <h2>Certification</h2>
-	<b>My Certificates</b>
-	<div class="gallery">
-		<a href="https://drive.google.com/file/d/1cu4WLnKgIFwBYzk6JcCkQQn5-KpayrvB/view?usp=sharing" data-lightbox="mygallery">
-                  <img src="html.png">
-		</a>
-		<!--<a href=
-"https://media.geeksforgeeks.org/wp-content/uploads/20200318142245/CSS8.png"
-		data-lightbox="mygallery">-->
-		<a href="https://drive.google.com/file/d/1cpwei6-pulWhiD9pO0zDE2LfJsOMvaXS/view?usp=sharing" data-lightbox="mygallery">
-		          <img src="css3.png">
-		</a>
-		<a href=
-"https://drive.google.com/file/d/1cpbo8NB0G5z8a23TiW_QZZa6GnsYbn9J/view?usp=sharing"
-		data-lightbox="mygallery">
-			<img src="js.png">
-		</a>
-		<a href=
-"https://drive.google.com/file/d/1czD8OB18UIHKWsVV_1aS3JhYzGVEM1rd/view?usp=sharing"
-		data-lightbox="mygallery">
-			<img src="py.png">
-		</a>
-		<a href=
-"https://drive.google.com/file/d/1d0MyrAetfxerqPahtglriI2LrjBhnrms/view?usp=sharing"
-		data-lightbox="mygallery">
-			<img src="rd.jpeg">
-		</a>
-		<a href=
-"https://drive.google.com/file/d/1d5Xc-P7QGVNg8NUBLbuPql1cOdFAWvao/view?usp=sharing"
-		data-lightbox="mygallery">
-			<img src="ts.png">
-		</a>
-		<a href=
-"https://drive.google.com/file/d/1d_koNnhs13FJ7CCDxAHu8BehBfjtgr09/view?usp=sharing"
-		data-lightbox="mygallery">
-			<img src="cs.png">
-		</a>
-		<a href=
-"https://drive.google.com/file/d/1dUuzxYLria0Za2DAUc89PceYVUKiO6qO/view?usp=sharing"
-		data-lightbox="mygallery">
-			<img src="ce.png">
-		</a>
-		<a href=
-"https://drive.google.com/file/d/1df6wBz0-qiBheOTtevZe_YHugrnnR22A/view?usp=sharing"
-		data-lightbox="mygallery">
-			<img src="pt.jpg">
-		</a>
-		<a href=
-"https://drive.google.com/file/d/1dDyfQ_hYM0VZHV4jVecvx8-kkF1tVEXG/view?usp=sharing"
-		data-lightbox="mygallery">
-			<img src="bd.jpg">
-		</a>
-	</div>
-	</div>
-	</div>
-	<hr />
-	</section>
-	
-      <section id="contact" class="contact">
-        <h2>Get In Touch</h2>
+          <h2>Certification</h2>
+          <b>My Certificates</b>
+          <div class="gallery">
+            <a href="https://drive.google.com/file/d/1cu4WLnKgIFwBYzk6JcCkQQn5-KpayrvB/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="html.png">
+            </a>
+            <a href="https://drive.google.com/file/d/1cpwei6-pulWhiD9pO0zDE2LfJsOMvaXS/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="css3.png">
+            </a>
+            <a href="https://drive.google.com/file/d/1cpbo8NB0G5z8a23TiW_QZZa6GnsYbn9J/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="js.png">
+            </a>
+            <a href="https://drive.google.com/file/d/1czD8OB18UIHKWsVV_1aS3JhYzGVEM1rd/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="py.png">
+            </a>
+            <a href="https://drive.google.com/file/d/1d0MyrAetfxerqPahtglriI2LrjBhnrms/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="rd.jpeg">
+            </a>
+            <a href="https://drive.google.com/file/d/1d5Xc-P7QGVNg8NUBLbuPql1cOdFAWvao/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="ts.png">
+            </a>
+            <a href="https://drive.google.com/file/d/1d_koNnhs13FJ7CCDxAHu8BehBfjtgr09/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="cs.png">
+            </a>
+            <a href="https://drive.google.com/file/d/1dUuzxYLria0Za2DAUc89PceYVUKiO6qO/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="ce.png">
+            </a>
+            <a href="https://drive.google.com/file/d/1df6wBz0-qiBheOTtevZe_YHugrnnR22A/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="pt.jpg">
+            </a>
+            <a href="https://drive.google.com/file/d/1dDyfQ_hYM0VZHV4jVecvx8-kkF1tVEXG/view?usp=sharing"
+              data-lightbox="mygallery" target="_blank">
+              <img src="bd.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get In Touch</h2>
+      <p>
+        I'd love if you reached out to me. Even if it's just to say "Hey!".
+        Don't hesitate! Drop me a line and I'll get back to you ASAP!
+      </p>
+      <div class="container">
         <p>
-          I'd love if you reached out to me. Even if it's just to say "Hey!".
-          Don't hesitate! Drop me a line and I’ll get back to you ASAP!
+          <a href="mailto:yashbansaljuly8@gmail.com"><i class="fas fa-envelope-open"></i> yashbansaljuly8@gmail.com</a>
         </p>
-        <div class="container">
-          <p>
-            <a href="mailto:yashbansaljuly8@gmail.com"
-              ><i class="fas fa-envelope-open"></i> yashbansaljuly8@gmail.com</a
-            >
-          </p>
-          <p>
-          <a href="https://www.linkedin.com/in/yash-bansal-03076a1b6" target="_blank"><i class="fab fa-linkedin"> LinkedIn</i></a>
-          </p>
-          <p>
-            <a href="https://instagram.com/_mr.bansalji_?utm_medium=copy_link" target="_blank"
-              ><i class="fab fa-instagram"> Instagram</i></a
-            >
-          </p>
-          <p>
-            <a href="https://www.facebook.com/profile.php?id=100011446328775" target="_blank"><i class="fab fa-facebook"> Facebook</i></a>
-          </p>
-          <p>
-            <a href="https://twitter.com/_rocker_yash_/status/1346374291168739328?s=19" target="_blank"
-              ><i class="fab fa-twitter"> Twitter</i></a
-            >
-          </p>
-        </div>
-        <hr />
-      </section>
-      <footer>
-        <div class="footer-nav">
-          <a href="#landing-page" class="footer-nav-link">Home</a>
-          <a href="#about" class="footer-nav-link">About</a>
-         <a href="#Certificates" class="footer-nav-link">Certification</a>
-         <!-- <a href="projects" class="footer-nav-link">Projects</a> -->
-          <a href="#contact" class="footer-nav-link">Contact</a>
-        </div>
-        <div class="footer-coded-by">
-          <p>
-            <i class="fas fa-code"></i> with 💙 by Yash Bansal &copy; 2021
-          </p>
-         <!-- <p>Built with pure HTML, CSS and JavaScript</p> -->
-        </div>
-        <div class="footer-social">
-          <a href="https://www.linkedin.com/in/yash-bansal-03076a1b6" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://instagram.com/_mr.bansalji_?utm_medium=copy_link" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100011446328775" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://twitter.com/_rocker_yash_/status/1346374291168739328?s=19" target="_blank"><i class="fab fa-twitter"></i></a>
-        </div>
-      </footer>
-    </main>
-    <script src="main.js"></script>
-  </body>
+        <p>
+          <a href="https://www.linkedin.com/in/yash-bansal-03076a1b6" target="_blank"><i class="fab fa-linkedin">
+              LinkedIn</i></a>
+        </p>
+        <p>
+          <a href="https://www.instagram.com/bansal_ji.?igsh=emRybThvYWZ3Z2c4" target="_blank"><i
+              class="fab fa-instagram"> Instagram</i></a>
+        </p>
+        <p>
+          <a href="https://www.facebook.com/profile.php?id=100011446328775" target="_blank"><i class="fab fa-facebook">
+              Facebook</i></a>
+        </p>
+        <p>
+          <a href="https://twitter.com/_rocker_yash_/status/1346374291168739328?s=19" target="_blank"><i
+              class="fab fa-twitter"> Twitter</i></a>
+        </p>
+      </div>
+      <hr />
+    </section>
+    <footer>
+      <div class="footer-nav">
+        <a href="#landing-page" class="footer-nav-link">Home</a>
+        <a href="#about" class="footer-nav-link">About</a>
+        <a href="#projects" class="footer-nav-link">Projects</a>
+        <a href="#Certificates" class="footer-nav-link">Certification</a>
+        <a href="#contact" class="footer-nav-link">Contact</a>
+      </div>
+      <div class="footer-coded-by">
+        <p>
+          <i class="fas fa-code"></i> with 💙 by Yash Bansal &copy; 2024
+        </p>
+        <!-- <p>Built with pure HTML, CSS and JavaScript</p> -->
+      </div>
+      <div class="footer-social">
+        <a href="www.linkedin.com/in/yash-bansal-03076a1b6" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/bansal_ji.?igsh=emRybThvYWZ3Z2c4" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100011446328775" target="_blank"><i
+            class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/_rocker_yash_/status/1346374291168739328?s=19" target="_blank"><i
+            class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+  </main>
+  <script src="main.js"></script>
+</body>
+
 </html>
- <!--        <div class="burger-menu-icon">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>   
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#landing-page">
-                <img
-                  src="images/profile-pic.jpg"
-                  alt="Yash Bansal"
-                  class="profile-pic nav-link"
-                />
-                <span class="caption nav-link">Yash Bansal</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#services" class="nav-link">Services</a>
-            </li>
-           <li class="nav-item">
-              <a href="#projects" class="nav-link">Projects</a>
-            </li> -->
-<!--            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" target="_blank" class="nav-link">
-                <i class="fab fa-youtube"></i>
-              </a>
-              <a href="#" target="_blank" class="nav-link">
-                <i class="fab fa-dev"></i>
-              </a>
-              <a href="#" target="_blank" class="nav-link">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>   -->
-       <!--     <div class="cta">
-              <a href="#" target="_blank" class="btn nav-link">blank</a>
-            </div>
-          </ul> -->
+
 <!-- <section id="services" class="services">
         <div class="container">
           <div class="title-heading">
@@ -286,67 +419,3 @@
         </div>
         <hr />
       </section> -->
-<!--      <section id="projects" class="projects"> 
-        <div class="title-heading">
-          <h2>PROJECTS</h2>
-          <p>these are some of my recent projects</p>
-        </div> 
-        <div class="project-item">
-          <div class="project-img has-margin-right">
-            <img src="images/sppms.png" />
-          </div> 
-          <div class="project-description">
-            <h2>Project Progress Management System</h2>
-            <p>
-              This is a system for monitoring projects' progress of final year
-              students. It have three levels of users i.e Students, Supervisors
-              and the Project Coordinator. Each user have a specific role in the
-              system. Students have the lowest privilege. I developed this
-              system using React, Redux and Firebase
-            </p>
-            <a href="#" class="project-link" target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
-          </div>
-        </div>
-
-        <div class="project-item">
-          <div class="project-description has-margin-right">
-            <h2>To-do App</h2>
-            <p>
-              This is a simple to-do app I developed for educational purpose on
-              my YouTube Channel. It allows the user to perform CRUD operations
-              e.g adding and removing tasks from the database. Users must
-              register and login for them to use the app. A user can only see
-              the tasks that he/she have added. I developed this app using
-              React, Redux and Firebase.
-            </p>
-            <a href="#" class="project-link" target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
-          </div>
-          <div class="project-img">
-            <img src="images/to-do.png" />
-          </div>
-        </div>
-
-        <div class="project-item">
-          <div class="project-img has-margin-right">
-            <img src="images/calculator.png" />
-          </div>
-          <div class="project-description">
-            <h2>Calculator</h2>
-            <p>
-              This is a simple calculator which performs the most common
-              arithmetic operations. It have cool design and buttons are
-              arranged nicely using CSS grid. I used JavaScript to receive
-              input, perform computation and display the correct result on
-              "screen".
-            </p>
-            <a href="#" class="project-link" target="_blank"
-              ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
-            >
-          </div>
-        </div>
-        <hr />
-      </section>  -->
